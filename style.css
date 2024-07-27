@@ -1,3 +1,36 @@
 body{
-  font-family: georgia;
+  font-family: "Poopins", sans-serif;
+}
+.header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 3rem 9%;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo{
+  font-size: 3rem;
+  font-weight: 100;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  color: orangered;
+}
+.navbar a{
+  font-size: 1.8rem;
+  color: green;
+  margin-left: 4rem;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+  border-bottom: 3px solid transparent;
+}
+.navbar a:hover,
+.navbar a:active{
+  color: orangered;
+  border-bottom: 3px solid orangered;
 }
